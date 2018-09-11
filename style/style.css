@@ -1,0 +1,97 @@
+main {
+    width: 480px;
+    height: 768px;
+}
+
+div {
+    box-sizing: border-box;
+    /* border: 1px solid purple; */
+}
+
+.a {
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    background-color: red;
+}
+
+.b {
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    background-color: pink;
+}
+
+.c {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: yellow;
+}
+
+.d {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    background-color: orange;
+}
+
+.e {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color:blue;
+}
+
+.f {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color:purple;
+}
+
+.g {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: olivedrab;
+}
+
+.h {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    background-color: navy;
+}
+
+.blank {
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    background-color: orangered;
+}
+
+.e, .g {
+    float: left;
+}
+
+.f, .h {
+    float: right;
+}
+
+/* .parent1 {
+
+} */
+
+.clearfix {
+    clear:both;
+}
+
+p {
+    text-align: center;
+    vertical-align: center;
+}
+
+
+
+
